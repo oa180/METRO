@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "1f2325d4-b16e-46f4-ba30-8944ce383617",
+		"name": "Stations",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16607797"
+	},
+	"item": [
+		{
+			"name": "Get A Station",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8080/api/v1/stations/637e799cde5ade4aa8f4c68f",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"stations",
+						"637e799cde5ade4aa8f4c68f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Stations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8080/api/v1/stations",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"stations"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
